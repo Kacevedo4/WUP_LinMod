@@ -93,6 +93,10 @@ This shows a Scatter plot with an function on it which ARM strength is 88 and th
 
 ### Now add in scatterplot
 
+```{r}
+plot(SIMS~GRIP,data=data)
+```
+This shows a positive relationship between SIMS and ARM. If this was a perfect linear relationship then all of these plots would be straight line
 
 ### Numerical results 
 
