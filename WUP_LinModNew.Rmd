@@ -65,6 +65,13 @@ This shows the degree of correlation between arm strength and sims score which i
 
 ### Inferential  (Build model.1)
 
+```{r}
+
+model.1 <- lm(SIMS~ARM,data=data)
+summary.lm(model.1)
+```
+This shows that the P-value for the coefficient of arm is smaller than .05. in other words this means that the coefficient is highly significant.
+
 #### Predict at target point
 
 
