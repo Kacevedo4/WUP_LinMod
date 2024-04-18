@@ -126,7 +126,13 @@ This shows that the P-value for the coefficient of arm is smaller than .05. This
 ### Numerical results (cor)
 
 `
+```{r}
+m = data.frame(data['GRIP'],data['ARM'],data['SIMS'])
+cor(m)
+```
   
+This shows that SIMS correlates with GRIP in a positive manner, (0.64) and SIMS correlates with ARM also in a positive manner, (0.69).So this variables are useful to predict the SIMS. 
+
 ### Inferential  (Build 2-dimentional model.3)
 
 #### predict model.3 at target point
