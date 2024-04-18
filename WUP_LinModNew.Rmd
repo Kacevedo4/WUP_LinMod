@@ -160,7 +160,19 @@ So 95% confidence interval is SIMS in between -2.13 and 2.43 since this means th
 ## Comparing nested models ANOVA Test
 
 ### Model.1 vs Model.3
+```{r}
+anova(model.1,model.3)
+```
+
+This shows that P-value is 0.00000499, which is less than 0.05 so we determine that the model.3 its better than model.1.
+
 ### Model.2 vs Model.3
+```{r}
+anova(model.2,model.3)
+```
+This shows that P-value is 0.00000000149, which is less than 0.05 so we determine that model 2 is better than model 3
+
 
 ## Informally compare Model.1 with model.2
 
+As the final result we can concluded that model 3 is better than model 1 and model 2,however we can also conclude that model 2 is better than model 1. 
