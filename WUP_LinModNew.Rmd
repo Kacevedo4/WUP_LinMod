@@ -74,6 +74,12 @@ This shows that the P-value for the coefficient of arm is smaller than .05. in o
 
 #### Predict at target point
 
+```{r}
+SIMSpredict= predict.lm(model.1, newdata= data.frame(ARM=88,GRIP=94), interval = "confidence") 
+print(SIMSpredict)
+```
+
+The prediction for ARM is = 88, and GRIP= 94 is 0.71. 
 
 #### scatterplot with model fit
   
