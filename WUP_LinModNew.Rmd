@@ -133,6 +133,12 @@ cor(m)
   
 This shows that SIMS correlates with GRIP in a positive manner, (0.64) and SIMS correlates with ARM also in a positive manner, (0.69).So this variables are useful to predict the SIMS. 
 
+
+```{r}
+plot(data$GRIP, data$ARM)
+```
+This shows that GRI and ARM are nor independent,which means that not such a good model.
+
 ### Inferential  (Build 2-dimentional model.3)
 
 #### predict model.3 at target point
