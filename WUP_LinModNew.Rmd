@@ -43,11 +43,17 @@ For every model we will predict sim for arm = 88, grip = 94
 # Methods: 
 
 We have numerical respinses (sim score) and numerical explanatory variables (arm and grip strength)
-so we will use the thre numercial~numerical helper file
+so we will use the the numerical~numerical helper file.
+
 
 ## Model 1 SIM~ARMS
 
 ### scatterplot
+```{r}
+plot(SIMS~ARM,data=data)
+```
+
+We can see a positive relationship between SIMS and ARM. If this was a perfect linear relationship it would result to these plots to be straight line which menas the correlation may be around 0.8.  
 
 ### Numerical results
 
