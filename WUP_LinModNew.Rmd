@@ -100,6 +100,12 @@ This shows a positive relationship between SIMS and ARM. If this was a perfect l
 
 ### Numerical results 
 
+```{r}
+cor(SIMS~GRIP,data=data)
+```
+
+This shows the degree of correlation between sims score and grip. A strong correlation is 1 and a weak correlation would be 0. 
+
 
 ### Inferential  (Build model.2)
   
