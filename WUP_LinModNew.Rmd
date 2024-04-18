@@ -83,6 +83,11 @@ The prediction for ARM is = 88, and GRIP= 94 is 0.71.
 
 #### scatterplot with model fit
   
+```{r}
+plot(SIMS~ARM,data=data)
+abline(model.1, col="red")
+```
+This shows a Scatter plot with an function on it which ARM strength is 88 and the 95%  confidence interval is between .48 and .92. 
 
 ## Model 2 SIM~GRIP
 
