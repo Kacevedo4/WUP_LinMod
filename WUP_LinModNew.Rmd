@@ -53,10 +53,15 @@ so we will use the the numerical~numerical helper file.
 plot(SIMS~ARM,data=data)
 ```
 
-We can see a positive relationship between SIMS and ARM. If this was a perfect linear relationship it would result to these plots to be straight line which menas the correlation may be around 0.8.  
+We can see a positive relationship between SIMS and ARM. If this was a perfect linear relationship it would result to these plots to be straight line which means the correlation may be around 0.8.  
 
 ### Numerical results
 
+```{r}
+cor(SIMS~ARM,data=data)
+```
+
+This shows the degree of correlation between arm strength and sims score which its a strong correlation because of 1 and a weak correlation would be a 0. 
 
 ### Inferential  (Build model.1)
 
